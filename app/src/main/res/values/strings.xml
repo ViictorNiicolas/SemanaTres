@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SemanaTres</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="mujer">Mujer</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="radio_button">Radio Button</string>
+    <string name="te_gusta_la_comida_china">Te Gusta la Comida China??</string>
+    <string name="hombre">Hombre</string>
+</resources>

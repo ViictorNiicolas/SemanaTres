@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="80dp"
+        android:layout_height="27dp"
+        android:text="@string/hombre"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="401dp"
+        android:layout_height="174dp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="106dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic"
+        android:contentDescription="TODO" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="82dp"
+        android:layout_height="31dp"
+        android:text="@string/mujer"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="364dp">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hombre" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mujer" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radio_button"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="392dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="30dp"
+        android:indeterminate="true"
+        android:indeterminateDuration="05000"
+        android:indeterminateDrawable="@drawable/abc_vector_test"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="27dp"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:numStars="7"
+        android:rating="0"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="664dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="231dp"
+        android:layout_height="23dp"
+        android:text="@string/te_gusta_la_comida_china"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="606dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
